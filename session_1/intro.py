@@ -8,6 +8,16 @@ class Cat:
 		"""
 		self.name = name
 		self.age = age
+		self.accesories = [
+			"Hello there",
+			3.1415,
+			{
+				"enemy": "dog"
+			},
+			[
+				"NICE",
+			],
+		]
 
 	def __repr__(self) -> str:
 		return f"The cat: {self.name}, is {self.age} years old."
